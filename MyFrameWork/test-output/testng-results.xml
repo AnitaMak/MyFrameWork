@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up reports and Test is getting ready]]>
+    </line>
+    <line>
+      <![CDATA[Setting up is done  and Test can be started]]>
+    </line>
+    <line>
+      <![CDATA[Starting Browser and getting Application ready]]>
+    </line>
+    <line>
+      <![CDATA[Browser is up and running]]>
+    </line>
+    <line>
+      <![CDATA[Test about to end]]>
+    </line>
+    <line>
+      <![CDATA[Test completed  >>> Report Generated]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19469" started-at="2019-03-29T15:08:10Z" finished-at="2019-03-29T15:08:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19469" started-at="2019-03-29T15:08:10Z" finished-at="2019-03-29T15:08:29Z">
+      <class name="com.Automation.Tesatcases.LoginTestnewTours">
+        <test-method status="PASS" signature="setUpSuit()[pri:0, instance:com.Automation.Tesatcases.LoginTestnewTours@cb5822]" name="setUpSuit" is-config="true" duration-ms="3916" started-at="2019-03-29T16:08:06Z" finished-at="2019-03-29T16:08:10Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up reports and Test is getting ready]]>
+            </line>
+            <line>
+              <![CDATA[Setting up is done  and Test can be started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpSuit -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.Automation.Tesatcases.LoginTestnewTours@cb5822]" name="SetUp" is-config="true" duration-ms="10843" started-at="2019-03-29T16:08:10Z" finished-at="2019-03-29T16:08:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Starting Browser and getting Application ready]]>
+            </line>
+            <line>
+              <![CDATA[Browser is up and running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="logingApplication()[pri:0, instance:com.Automation.Tesatcases.LoginTestnewTours@cb5822]" name="logingApplication" duration-ms="5113" started-at="2019-03-29T16:08:21Z" finished-at="2019-03-29T16:08:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logingApplication -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.Automation.Tesatcases.LoginTestnewTours@cb5822]" name="tearDownMethod" is-config="true" duration-ms="2394" started-at="2019-03-29T16:08:26Z" finished-at="2019-03-29T16:08:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logingApplication status=SUCCESS method=LoginTestnewTours.logingApplication()[pri:0, instance:com.Automation.Tesatcases.LoginTestnewTours@cb5822] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test about to end]]>
+            </line>
+            <line>
+              <![CDATA[Test completed  >>> Report Generated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Automation.Tesatcases.LoginTestnewTours@cb5822]" name="tearDown" is-config="true" duration-ms="1071" started-at="2019-03-29T16:08:28Z" finished-at="2019-03-29T16:08:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Automation.Tesatcases.LoginTestnewTours -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
